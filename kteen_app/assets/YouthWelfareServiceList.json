@@ -1,0 +1,470 @@
+[
+    {
+        "TITLE": "방과후학교 자유수강권",
+        "MAIN_PURPS": "방과후학교 수업을 통해 저소득층 자녀의 지속적이며 실직적인 교육기회를 확대하고 공교육 활성화 및 저소득층의 교육격차 해소를 도모합니다.",
+        "RELATE_INFO": "교육비 원클릭 신청 시스템 상담센터 https://oneclick.moe.go.kr",
+        "GUID_CONT": "교육비 원클릭 신청 시스템 상담센터 1544-9654",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "방과후학교지원과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "인문100년장학금",
+        "MAIN_PURPS": "인문학 및 기초학문 분야 우수인재가 학업에 전념할 수 있는 환경을 조성하여 학문 후속세대로 성장할 수 있도록 지원합니다.",
+        "RELATE_INFO": "한국장학재단 상담센터 http://www.kosaf.go.kr/",
+        "GUID_CONT": "한국장학재단 콜센터 1599-2000",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "대학장학과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "일반상환학자금 대출",
+        "MAIN_PURPS": "개인 사정에 따라서 거치기간과 상환기간을 합리적으로 조절하여 상환할 수 있는 학자금 대출제도를 운영합니다.",
+        "RELATE_INFO": "한국장학재단 상담센터 http://www.kosaf.go.kr/",
+        "GUID_CONT": "한국장학재단 장학서비스센터 1599-2000",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "대학장학과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "장애학생 정보격차 해소 지원",
+        "MAIN_PURPS": "특수교육 대상자와 교사를 위해 교수학습지원 콘텐츠를 개발하고 사이트를 운영하여 정보격차 해소를 지원합니다.",
+        "RELATE_INFO": "국립특수교육원 http://www.nise.go.kr 에듀에이블 http://eduable.net 이얍 사이트 http://blind.nise.go.kr",
+        "GUID_CONT": "국립특수교육원 041-537-1485",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "정보지원과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "초등돌봄교실",
+        "MAIN_PURPS": "맞벌이가정 등의 자녀가 방과후에도 안심하고 생활할 수 있도록 학교가 자녀를 돌봅니다.",
+        "RELATE_INFO": "",
+        "GUID_CONT": "교육부 대표전화 02-6222-6060",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "방과후학교지원과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "한부모가족자녀 교육비 지원",
+        "MAIN_PURPS": "저소득 한부모가족 및 조손가족의 교육비를 지원하여 교육기회를 보장합니다.",
+        "RELATE_INFO": "교육부 학생복지정책과 http://www.moe.go.kr",
+        "GUID_CONT": "교육부 민원콜센터 02-6222-6060",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "학생복지정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "산재근로자 복지지원(장학금)",
+        "MAIN_PURPS": "산재를 당한 근로자 본인과 배우자, 자녀의 생활안정을 위하여 본인과 자녀의 고등학교 학자금을 지원합니다.",
+        "RELATE_INFO": "근로복지공단 http://www.kcomwel.or.kr/ 근로복지넷 http://www.workdream.net 근로복지공단 고객지원센터 www.kcomwel.or.kr",
+        "GUID_CONT": "근로복지공단 대표전화 1588-0075",
+        "OPERT_MAINBD_NM": "고용노동부",
+        "OPERT_ORGNZT_NM": "산재보상정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "가출청소년 보호지원 쉼터 운영 지원",
+        "MAIN_PURPS": "가출 청소년을 보호하고 상담이나 교육문화활동 지원을 통해 비행이나 탈선을 예방하여 가정복귀와 사회적응을 돕습니다.",
+        "RELATE_INFO": "청소년상담복지센터, 한국청소년상담복지개발원 한국청소년상담복지개발원(www.kyci.or.kr)",
+        "GUID_CONT": "(사)한국청소년쉼터협의회 02-403-9171",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년자립지원과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "국립중앙청소년치료재활센터 운영",
+        "MAIN_PURPS": "정서나 행동에 어려움을 겪는 청소년이 건강하게 성장하도록 종합적이고 전문적 서비스를 제공하는 기숙형 상담, 치료기관을 운영합니다.",
+        "RELATE_INFO": "국립중앙청소년치료재활센터 www.nyhc.or.kr",
+        "GUID_CONT": "국립중앙청소년치료재활센터 031-333-1900",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년보호과",
+        "OPERT_BEGIN_DE": "2016"
+    },
+    {
+        "TITLE": "매체활용능력증진 및 역기능해소(청소년인터넷ㆍ스마트폰중독치료비 지원)",
+        "MAIN_PURPS": "인터넷과 스마트폰에 중독된 청소년을 치료하고 중독의 위기에 놓인 청소년이 중독되는 것을 예방합니다.",
+        "RELATE_INFO": "여성가족부 http://www.mogef.go.kr/",
+        "GUID_CONT": "청소년전화 1388",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년매체환경과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "지역 청소년활동정책 진흥사업(구 17개시도 지방청소년 활동진흥센터 운영지원)",
+        "MAIN_PURPS": "지방에 중앙의 청소년 정책을 전달하여 17개 시/도 지역 청소년들이 균형 있게 성장하도록 지역 청소년활동정책을 지원합니다.",
+        "RELATE_INFO": "",
+        "GUID_CONT": "여성가족부 청소년활동진흥과 02-2100-6255",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년활동진흥과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "지역사회청소년통합지원 체계",
+        "MAIN_PURPS": "청소년의 올바른 성장을 위해 청소년을 상담하고, 학업을 중단한 청소년의 학업 복귀와 자립 등을 통합적으로 지원합니다.",
+        "RELATE_INFO": "",
+        "GUID_CONT": "헬프콜 청소년전화 1388",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년자립지원과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "청소년국제교류",
+        "MAIN_PURPS": "청소년의 국제 교류를 통해 국가간 우의를 증진하고 국가간 협력기반을 조성하여 글로벌 리더의 역량을 개발하도록 지원합니다.",
+        "RELATE_INFO": "한국청소년활동진흥원 www.kywa.or.kr",
+        "GUID_CONT": "한국청소년활동진흥원 02-330-2800",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년활동진흥과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "청소년동반자프로그램 운영",
+        "MAIN_PURPS": "위기 청소년을 대상으로 전문가가 찾아가서 심층상담을 하고,청소년 동반자 프로그램을 통해 심리적·정서적 지지를 얻을 수 있도록 지원합니다.",
+        "RELATE_INFO": "",
+        "GUID_CONT": "헬프콜 청소년전화 1388(지역번호+1338)",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년자립지원과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "청소년방과후아카데미운영지원",
+        "MAIN_PURPS": "취약계층 청소년의 방과 후 활동을 지원합니다.",
+        "RELATE_INFO": "청소년방과후아카데미운영지원단 (www.youth.go.kr/yaca",
+        "GUID_CONT": "청소년방과후아카데미운영지원단 02-330-2831~3",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년활동진흥과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "청소년사이버상담센터 운영",
+        "MAIN_PURPS": "어려움을 겪고 있는 청소년에게 사이버상담센터에서 인터넷으로 상담합니다.",
+        "RELATE_INFO": "청소년상담복지센터, 한국청소년상담복지개발원 한국청소년상담복지개발원(www.kyci.or.kr)",
+        "GUID_CONT": "한국청소년상담복지개발원 1388(지역번호+1388)",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년자립지원과",
+        "OPERT_BEGIN_DE": "2016"
+    },
+    {
+        "TITLE": "청소년유해환경개선",
+        "MAIN_PURPS": "선정된 민간단체가 청소년을 대상으로 유해약물을 불법으로 판매하는 업소에 대하여 모니터링을 실시하고 상습적으로 음주를 하거나 흡연하는 청소년의 재활을 지원합니다.",
+        "RELATE_INFO": "",
+        "GUID_CONT": "여성가족부 대표전화 02-2100-6000",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년보호환경과",
+        "OPERT_BEGIN_DE": "2016"
+    },
+    {
+        "TITLE": "청소년전화1388 및 모바일문자상담 운영",
+        "MAIN_PURPS": "청소년 전화 1388 전화상담과 모바일 문자상담, 카카오톡 상담 등을  운영하여 청소년의 일상적인 고민 상담부터 위기상황에 대한 상담 등을 지원합니다.",
+        "RELATE_INFO": "청소년상담복지센터, 한국청소년상담복지개발원 한국청소년상담복지개발원(www.kyci.or.kr)",
+        "GUID_CONT": "한국청소년상담복지개발원 1388",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년자립지원과",
+        "OPERT_BEGIN_DE": "2016"
+    },
+    {
+        "TITLE": "청소년활동지원",
+        "MAIN_PURPS": "청소년이 꿈을 펼칠 수 있도록 다양한 체험활동 기회를 제공하여 개성과 창의성을 개발하고 건강하게 성장하도록 지원합니다.",
+        "RELATE_INFO": "",
+        "GUID_CONT": "여성가족부 청소년활동진흥과 02-2100-6255",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "청소년활동진흥과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "(북한이탈주민)교육지원",
+        "MAIN_PURPS": "북한에서 남한으로 이주한 청소년이 학교생활에 적응하여 우리 사회의 건강한 구성원이 될 수 있도록 돕습니다.",
+        "RELATE_INFO": "통일부 정착지원과 www.unikorea.go.kr 북한이탈주민지원재단 교육개발부 www.dongposarang.or,kr",
+        "GUID_CONT": "북한이탈주민지원재단 교육개발부 02-3215-5751",
+        "OPERT_MAINBD_NM": "통일부",
+        "OPERT_ORGNZT_NM": "정착지원과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "가정폭력·성폭력피해자무료법률지원",
+        "MAIN_PURPS": "가정폭력과 성폭력으로 고통 받는 남성과 여성 그리고 아동 청소년의 법률적 문제를 돕습니다.",
+        "RELATE_INFO": "대한법률구조공단 http://www.klac.or.kr/ 한국가정법률상담소 http://www.lawhome.or.kr/law1/index.asp 대한변협법률구조재단 http://www.legalaid.or.kr/index2.php (사)한국성폭력위기센터  www.rape119.or.kr",
+        "GUID_CONT": "대한법률구조공단 콜센터 132",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "복지지원과",
+        "OPERT_BEGIN_DE": "2016"
+    },
+    {
+        "TITLE": "성매매 피해청소년 치료·재활",
+        "MAIN_PURPS": "성매매 피해청소년에게 치료·재활교육 프로그램을 실시 및 상담·사례관리를 통해 성매매에 재유입 되는 것을 예방하여건강한 사회의 일원으로 복귀할 수 있도록 지원합니다.",
+        "RELATE_INFO": "",
+        "GUID_CONT": "여성가족부 폭력예방교육과 02-2100-6447",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "폭력예방교육과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "성폭력피해아동청소년 전용쉼터운영지원",
+        "MAIN_PURPS": "심리·정서·신체적으로 위기상태에 있는 성폭력 피해 아동이나 청소년에게 상담·의료·법률·보호·숙식제공 등 다양한 서비스를 제공하여 자립을 돕습니다.",
+        "RELATE_INFO": "여성가족부 http://www.mogef.go.kr/ 여성긴급전화 www.womenhotline.or.kr",
+        "GUID_CONT": "여성긴급전화 1366",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "권익정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "스포츠강좌이용권",
+        "MAIN_PURPS": "저소득층 청소년에게 지속적인 스포츠 활동 기회를 보장하여 체력향상과 건전한 여가활동을 지원합니다.",
+        "RELATE_INFO": "스포츠강좌이용권 http://svoucher.or.kr",
+        "GUID_CONT": "스포츠강좌이용권 410-1298/1299",
+        "OPERT_MAINBD_NM": "문화체육관광부",
+        "OPERT_ORGNZT_NM": "체육진흥과",
+        "OPERT_BEGIN_DE": "2016"
+    },
+    {
+        "TITLE": "이주배경 청소년 지원",
+        "MAIN_PURPS": "다문화가족의 청소년과 국내로 이주해 온 청소년들이 우리 사회에 잘 적응할 수 있도록 상담과 진로지원 프로그램 등을 실시합니다.",
+        "RELATE_INFO": "이주배경청소년지원센터 www.rainbowyouth.or.kr 레인보우스쿨 www.rainbowyouth.or.kr",
+        "GUID_CONT": "이주배경청소년지원센터 02-733-7587",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "학교밖청소년지원과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "정신보건센터운영(아동청소년정신보건사업 포함)",
+        "MAIN_PURPS": "일반인은 물론 아동청소년에게 발생할 수 있는 정신건강(정신질환 등) 문제를 예방하고 조기에 발견하여 상담과 재활을 통해 치료받을 수 있도록 지원합니다.",
+        "RELATE_INFO": "한국정신보건전문요원협회 http://www.kamhp.or.kr/ 한국자살예방협회 http://www.suicideprevention.or.kr/ 자살예방협회 사이버상담실 http://www.counselling.or.kr/ 대한신경정신과의사회 http://www.onmaum.com/ 보건복지부 콜센터 http://www.129.go.kr",
+        "GUID_CONT": "보건복지콜센터 129",
+        "OPERT_MAINBD_NM": "보건복지부",
+        "OPERT_ORGNZT_NM": "정신건강정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "청소년 한부모고교생 교육비 지원",
+        "MAIN_PURPS": "학업이 중단될 위기에 직면한 청소년 한부모가 정규 고등학교  교육 과정을 이수할 기회를 보장합니다.",
+        "RELATE_INFO": "여성가족부 http://www.mogef.go.kr/index.jsp",
+        "GUID_CONT": "여성가족부 대표전화 02-2100-6000",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "가족지원과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "청소년산모 임신·출산 의료비 지원",
+        "MAIN_PURPS": "청소년 산모에게 임신 및 출산에 필요한 의료비를 지원하여 청소년 산모와 태아의 건강증진을 돕습니다.",
+        "RELATE_INFO": "사회서비스바우처 http://www.socialservice.or.kr",
+        "GUID_CONT": "사회서비스 전자바우처 1566-3232",
+        "OPERT_MAINBD_NM": "보건복지부",
+        "OPERT_ORGNZT_NM": "출산정책과",
+        "OPERT_BEGIN_DE": "2016"
+    },
+    {
+        "TITLE": "청소년성문화센터 설치·운영",
+        "MAIN_PURPS": "아동청소년이 다양한 도구와 매체를 활용하여 자기 주도적으로 학습할 수 있는 상설 성교육공간을 구축하여 운영함으로써 건강한 성 가치관 정립을 지원하고, 성범죄 피해로부터 예방을 도모합니다.",
+        "RELATE_INFO": "###############################################################################################################################################################################################################################################################",
+        "GUID_CONT": "한국청소년성문화센터협의회 02-3144-1223",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "폭력예방교육과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "청소년특별지원",
+        "MAIN_PURPS": "만 9세부터 18세 이하의 청소년 중에서 보호자가 없거나, 보호자가 있어도 실질적으로 보호를 받지 못하여 학업 중단 등의 위기에 처한 청소년이 올바르게 성장하고 안정된 생활을 할 수 있도록 지원합니다.",
+        "RELATE_INFO": "여성가족부 http://www.mogef.go.kr/index.jsp",
+        "GUID_CONT": "여성가족부 02-2100-6000",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "학교밖청소년지원과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "청소년한부모자립지원",
+        "MAIN_PURPS": "청소년 한부모가 자녀를 양육하고 자립할 수 있도록 지원합니다.",
+        "RELATE_INFO": "여성가족부 http://www.mogef.go.kr/index.jsp",
+        "GUID_CONT": "한부모 상담전화 1644-6621",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "가족지원과",
+        "OPERT_BEGIN_DE": "2016"
+    },
+    {
+        "TITLE": "취업사관학교 운영 지원",
+        "MAIN_PURPS": "가출 등의 이유로 학업이 중단되어 경제적사회적심리적으로 도움이 필요한 청소년에게 맞춤형 훈련을 실시하여 건전한 자립을 돕습니다.",
+        "RELATE_INFO": "한국산업인력공단 http://www.hrdkorea.or.kr",
+        "GUID_CONT": "한국산업인력공단 1644-8000",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "학교밖청소년지원과",
+        "OPERT_BEGIN_DE": "2016"
+    },
+    {
+        "TITLE": "학교 밖 청소년 지원",
+        "MAIN_PURPS": "학교 밖 청소년의 개인적 수요와 특성을 고려한 상담교육직업체험 및 취업, 자립지원 프로그램을 제공하여 건강한 사회구성원으로 성장하도록 지원합니다.",
+        "RELATE_INFO": "학교 밖 청소년지원센터 홈페이지 www.kdream.or.kr",
+        "GUID_CONT": "청소년상담 1388",
+        "OPERT_MAINBD_NM": "여성가족부",
+        "OPERT_ORGNZT_NM": "학교밖청소년지원과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "아동안전지킴이",
+        "MAIN_PURPS": "퇴직 경찰이나 교사 등 전문인력이 퇴직 후 지역사회에서 의미 있는 활동을 할 수 있도록 지원합니다.",
+        "RELATE_INFO": "경찰청 생활안전국 여성청소년과 사이버경찰청 경찰민원콜센터 사이버경찰청 대한민국 재향경우회 www. ex-police.or.kr 대한노인회 www. koreapeople.co.kr",
+        "GUID_CONT": "경찰민원콜센터 182",
+        "OPERT_MAINBD_NM": "경찰청",
+        "OPERT_ORGNZT_NM": "여성청소년과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "WEE 클래스 상담지원",
+        "MAIN_PURPS": "학교폭력 가해학생과 피해학생, 위기 학생, 학교 부적응학생이 정상적인 학교 생활을 할 수 있도록 진단, 상담, 치유 프로그램을 제공합니다.",
+        "RELATE_INFO": "학생안전통합시스템 www.wee.go.kr",
+        "GUID_CONT": "학교안전통합시스템 02)2057-8701~7, 8746",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "학교생활문화과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "교육복지 우선지원 사업",
+        "MAIN_PURPS": "취약계층 학생이 밀집한 학교를 선정하여 집중 지원함으로써 교육문화복지 수준을 높이고 교육격차를 해소합니다.",
+        "RELATE_INFO": "",
+        "GUID_CONT": "교육부 민원콜센터 02-6222-6060",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "학생복지정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "국가우수장학금(이공계)",
+        "MAIN_PURPS": "이공계 우수 학생을 발굴하여 미래의 핵심인재로 성장할 수 있도록 국가우수장학금을 지급합니다.",
+        "RELATE_INFO": "한국장학재단 고객센터 www.kosaf.go.kr",
+        "GUID_CONT": "한국장학재단 콜센터 1599-2000",
+        "OPERT_MAINBD_NM": "미래창조과학부",
+        "OPERT_ORGNZT_NM": "미래인재양성과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "국립특수학교 및 특수학급 지원",
+        "MAIN_PURPS": "국립특수학교(급)의 특수교육보조원, 종일반 운영 및 특수교육대상자의 방과후학교 경비를 지원하여 장애학생의 학습권을 보장합니다.",
+        "RELATE_INFO": "교육부 특수교육정책과 http://www.moe.go.kr",
+        "GUID_CONT": "교육부 대표전화 02-6222-6060",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "특수교육정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "긴급복지 교육지원",
+        "MAIN_PURPS": "생계곤란 등의 위기상황에 처한 가정의 초중고등학교 학생의 수업료, 입학금, 학교운영지원비, 학용품비 등을 지원하여 적정한 교육기회를 제공합니다.",
+        "RELATE_INFO": "보건복지부 콜센터 http://www.129.go.kr",
+        "GUID_CONT": "보건복지콜센터 129",
+        "OPERT_MAINBD_NM": "보건복지부",
+        "OPERT_ORGNZT_NM": "기초생활보장과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "농어촌출신대학생학자금융자",
+        "MAIN_PURPS": "농어촌지역 대학생에게 학자금 대출을 지원함으로써 학부모의 교육비 경감을 돕습니다.",
+        "RELATE_INFO": "한국장학재단 상담센터 http://www.kosaf.go.kr/",
+        "GUID_CONT": "한국장학재단 상담센터 1599-2000",
+        "OPERT_MAINBD_NM": "농림축산식품부",
+        "OPERT_ORGNZT_NM": "농촌사회과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "다문화·탈북학생멘토링 지원",
+        "MAIN_PURPS": "다문화 가정의 학생과 북한에서 남한으로 이주한 학생이 학교 생활에 잘 적응하여 기초학력이 향상되도록 대학생이 돕습니다.",
+        "RELATE_INFO": "교육부 다문화교육지원팀 http://www.moe.go.kr 한국장학재단 http://www.kosaf.go.kr",
+        "GUID_CONT": "한국장학재단 02-2259-2630",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "학생복지정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "장애대학생도우미지원",
+        "MAIN_PURPS": "장애대학생이 장애에 구애 받지 않고 자유롭게 공부할 수 있도록 교육활동의 기회를 제공합니다.",
+        "RELATE_INFO": "교육부 특수교육정책과 http://www.moe.go.kr 한국복지대학교 www.knuw.ac.kr",
+        "GUID_CONT": "교육부 특수교육정책과 044-203-6568",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "특수교육정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "초.중.고 학생 교육정보화 지원",
+        "MAIN_PURPS": "초등학생, 중학생, 고등학생에게 PC와 인터넷 통신비를 지원하여  정보 소외 계층의 교육 격차를 해소하고 균등한 교육 기회를 제공합니다.",
+        "RELATE_INFO": "중앙상담센터 (09:00~22:00, 주말포함)",
+        "GUID_CONT": "중앙상담센터 1544-9654",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "이러닝과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "취업후상환학자금 대출",
+        "MAIN_PURPS": "대학생이 학업에 전념할 수 있도록 학자금 전액대출을 지원하고 일정 소득이 발생한 후 소득수준에 따라 상환할 수 있도록 합니다.",
+        "RELATE_INFO": "한국장학재단 상담센터 http://www.kosaf.go.kr/",
+        "GUID_CONT": "한국장학재단 상담센터 1599-2000",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "대학장학과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "탈북학생 교육지원",
+        "MAIN_PURPS": "북한에서 남한으로 이주한 학생이 우리사회의 통합된 일원으로 적응하여통일 미래의 맞춤형 인재로 성장할 수 있도록 지원합니다.",
+        "RELATE_INFO": "탈북청소년교육지원센터 www.hub4u.or.kr",
+        "GUID_CONT": "탈북청소년교육지원센터 02-3414-0111",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "학생복지정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "학교우유급식",
+        "MAIN_PURPS": "성장기에 있는 기초생활수급자와 차상위계층 등의 학생에게 학교 우유급식을 공급함으로써 체력 증진과 영양 불균형을 해소하고, 우유소비기반을 확대하여 낙농산업의 안정적 발전을 도모합니다.",
+        "RELATE_INFO": "농림축산식품부 www.mafra.go.kr",
+        "GUID_CONT": "농림축산식품부 학교우유급식 담당 044-201-2341",
+        "OPERT_MAINBD_NM": "농림축산식품부",
+        "OPERT_ORGNZT_NM": "축산경영과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "(특수교육대상자) 치료지원서비스",
+        "MAIN_PURPS": "효과적인 교육을 위해 특수교육대상자의 다양한 치료를 지원합니다.",
+        "RELATE_INFO": "",
+        "GUID_CONT": "교육부 민원콜센터 02-6222-6060",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "특수교육정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "고교 학비 지원",
+        "MAIN_PURPS": "형편이 어려운 저소득층 가정의 자녀에게 교육의 기회를 보장하기 위해서 학비를 지원합니다.",
+        "RELATE_INFO": "교육비 원클릭 신청 시스템 상담센터 https://oneclick.moe.go.kr",
+        "GUID_CONT": "교육비 원클릭신청시스템 상담센터 1544-9654",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "학생복지정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "교육급여(맞춤형 급여)",
+        "MAIN_PURPS": "수급자에게 적정한 교육기회를 제공하여 자립할 수 있는 능력을 배양하고,가난의 대물림을 차단합니다.",
+        "RELATE_INFO": "보건복지부 콜센터 http://www.129.go.kr",
+        "GUID_CONT": "교육급여 콜센터 1544-9654",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "학생복지정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "국가장학금(Ⅰ, Ⅱ유형)",
+        "MAIN_PURPS": "고등교육(대학교)의 교육비 부담을 경감시키기 위해  등록금의 일부를 국가장학금으로 지원합니다.",
+        "RELATE_INFO": "한국장학재단 상담센터 http://www.kosaf.go.kr/",
+        "GUID_CONT": "한국장학재단 콜센터 1599-2000",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "대학장학과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "급식비 지원",
+        "MAIN_PURPS": "저소득층자녀에게 급식비를 지원하여  학부모의 부담을 덜어주고 교육복지를 실현합니다.",
+        "RELATE_INFO": "복지로 http://www.bokjiro.go.kr",
+        "GUID_CONT": "중앙상담센터 1544-9654",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "학생건강정책과",
+        "OPERT_BEGIN_DE": "2017"
+    },
+    {
+        "TITLE": "대학생근로장학금지원",
+        "MAIN_PURPS": "경제적 사정에 관계없이 누구나 균등한 고등교육의 기회를 가질 수 있는 여건을 조성하고, 직업체험의 기회를 제공하여 사회 적응력과 취업 능력을 키웁니다.",
+        "RELATE_INFO": "한국장학재단 상담센터 http://www.kosaf.go.kr/",
+        "GUID_CONT": "한국장학재단 상담센터 1599-2000",
+        "OPERT_MAINBD_NM": "교육부",
+        "OPERT_ORGNZT_NM": "대학장학과",
+        "OPERT_BEGIN_DE": "2017"
+    }
+]

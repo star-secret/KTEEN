@@ -29,6 +29,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  google_maps_flutter: ^2.0.6
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -38,6 +40,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  assets:
+    - assets/YouthWelfareServiceList.json
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
