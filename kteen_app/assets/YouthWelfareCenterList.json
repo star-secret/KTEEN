@@ -1,0 +1,612 @@
+[
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "가평군청소년상담복지센터",
+        "CENTER_TELNO": "031-582-2000",
+        "HMPG_ADDR": "http://www.gp1318.com",
+        "REFINE_ZIPNO": "12416",
+        "REFINE_LOTNO_ADDR": "경기도 가평군 가평읍 대곡리 352번지",
+        "REFINE_ROADNM_ADDR": "경기도 가평군 가평읍 문화로 120",
+        "REFINE_WGS84_LAT": "37.8237388528",
+        "REFINE_WGS84_LOGT": "127.5093568763"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "고양시청소년상담복지센터",
+        "CENTER_TELNO": "031-970-4003",
+        "HMPG_ADDR": "http://www.koymca1318.or.kr",
+        "REFINE_ZIPNO": "10512",
+        "REFINE_LOTNO_ADDR": "경기도 고양시 덕양구 토당동 3-39번지",
+        "REFINE_ROADNM_ADDR": "경기도 고양시 덕양구 중앙로633번길 25",
+        "REFINE_WGS84_LAT": "37.6246658942",
+        "REFINE_WGS84_LOGT": "126.8270993983"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "과천시청소년상담복지센터",
+        "CENTER_TELNO": "02-502-1318",
+        "HMPG_ADDR": "http://www.gc1318.or.kr",
+        "REFINE_ZIPNO": "13828",
+        "REFINE_LOTNO_ADDR": "경기도 과천시 문원동 199번지",
+        "REFINE_ROADNM_ADDR": "경기도 과천시 참마을로 9",
+        "REFINE_WGS84_LAT": "37.4265791837",
+        "REFINE_WGS84_LOGT": "127.0010291258"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "광명시청소년상담복지센터",
+        "CENTER_TELNO": "02-6673-3101",
+        "HMPG_ADDR": "http://www.km1318.or.kr",
+        "REFINE_ZIPNO": "14241",
+        "REFINE_LOTNO_ADDR": "경기도 광명시 철산동 379번지",
+        "REFINE_ROADNM_ADDR": "경기도 광명시 디지털로 34",
+        "REFINE_WGS84_LAT": "37.4733757120",
+        "REFINE_WGS84_LOGT": "126.8710455429"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "광주시청소년상담복지센터",
+        "CENTER_TELNO": "031-760-8450",
+        "HMPG_ADDR": "http://www.ggj1388.or.kr",
+        "REFINE_ZIPNO": "12744",
+        "REFINE_LOTNO_ADDR": "경기도 광주시 송정동 120-8번지",
+        "REFINE_ROADNM_ADDR": "경기도 광주시 중앙로 197",
+        "REFINE_WGS84_LAT": "37.4171446860",
+        "REFINE_WGS84_LOGT": "127.2561680799"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "구리시청소년상담복지센터",
+        "CENTER_TELNO": "031-557-2000",
+        "HMPG_ADDR": "http://www.guri1318.or.kr",
+        "REFINE_ZIPNO": "11922",
+        "REFINE_LOTNO_ADDR": "경기도 구리시 인창동 673-4번지",
+        "REFINE_ROADNM_ADDR": "경기도 구리시 건원대로34번길 32-10",
+        "REFINE_WGS84_LAT": "37.6037314068",
+        "REFINE_WGS84_LOGT": "127.1417653705"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "군포시청소년상담복지센터",
+        "CENTER_TELNO": "031-390-1450",
+        "HMPG_ADDR": "http://www.gp1318.or.kr",
+        "REFINE_ZIPNO": "15823",
+        "REFINE_LOTNO_ADDR": "경기도 군포시 산본동 1151-10번지",
+        "REFINE_ROADNM_ADDR": "경기도 군포시 수리산로 112",
+        "REFINE_WGS84_LAT": "37.3588112357",
+        "REFINE_WGS84_LOGT": "126.9185637257"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "김포시청소년상담복지센터",
+        "CENTER_TELNO": "031-980-1680",
+        "HMPG_ADDR": "http://www.ssac1388.or.kr",
+        "REFINE_ZIPNO": "10099",
+        "REFINE_LOTNO_ADDR": "경기도 김포시 걸포동 1553번지",
+        "REFINE_ROADNM_ADDR": "경기도 김포시 걸포로 76",
+        "REFINE_WGS84_LAT": "37.6379938964",
+        "REFINE_WGS84_LOGT": "126.7067697109"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "남양주청소년상담복지센터",
+        "CENTER_TELNO": "031-590-8096",
+        "HMPG_ADDR": "http://www.nyj.go.kr/young",
+        "REFINE_ZIPNO": "12244",
+        "REFINE_LOTNO_ADDR": "경기도 남양주시 이패동 715-12번지",
+        "REFINE_ROADNM_ADDR": "경기도 남양주시 다산지금로 51-47",
+        "REFINE_WGS84_LAT": "37.6088094195",
+        "REFINE_WGS84_LOGT": "127.1782307668"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "동두천청소년상담복지센터",
+        "CENTER_TELNO": "031-861-1388",
+        "HMPG_ADDR": "http://www.dyc1318.or.kr",
+        "REFINE_ZIPNO": "11362",
+        "REFINE_LOTNO_ADDR": "경기도 동두천시 지행동 284-1번지",
+        "REFINE_ROADNM_ADDR": "경기도 동두천시 지행로 95",
+        "REFINE_WGS84_LAT": "37.8929708159",
+        "REFINE_WGS84_LOGT": "127.0577924477"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "부천시청소년상담복지센터",
+        "CENTER_TELNO": "032-325-3002",
+        "HMPG_ADDR": "http://www.zzang1318.or.kr",
+        "REFINE_ZIPNO": "14596",
+        "REFINE_LOTNO_ADDR": "경기도 부천시 상동 394-2번지",
+        "REFINE_ROADNM_ADDR": "경기도 부천시 장말로 107",
+        "REFINE_WGS84_LAT": "37.4946222500",
+        "REFINE_WGS84_LOGT": "126.7542194620"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "성남시청소년상담복지센터",
+        "CENTER_TELNO": "031-729-9109",
+        "HMPG_ADDR": "http://www.sn1388.or.kr",
+        "REFINE_ZIPNO": "13437",
+        "REFINE_LOTNO_ADDR": "경기도 성남시 중원구 여수동 200번지",
+        "REFINE_ROADNM_ADDR": "경기도 성남시 중원구 성남대로 997",
+        "REFINE_WGS84_LAT": "37.4200543721",
+        "REFINE_WGS84_LOGT": "127.1265024677"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "수원시청소년상담복지센터",
+        "CENTER_TELNO": "031-218-0440",
+        "HMPG_ADDR": "http://www.suwon1318.or.kr",
+        "REFINE_ZIPNO": "16486",
+        "REFINE_LOTNO_ADDR": "경기도 수원시 팔달구 인계동 333번지",
+        "REFINE_ROADNM_ADDR": "경기도 수원시 팔달구 권광로 293",
+        "REFINE_WGS84_LAT": "37.2738526448",
+        "REFINE_WGS84_LOGT": "127.0348350036"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "시흥시청소년상담복지센터",
+        "CENTER_TELNO": "031-318-7100",
+        "HMPG_ADDR": "http://www.shyc.or.kr",
+        "REFINE_ZIPNO": "14914",
+        "REFINE_LOTNO_ADDR": "경기도 시흥시 대야동 571-2번지",
+        "REFINE_ROADNM_ADDR": "경기도 시흥시 은행로 179",
+        "REFINE_WGS84_LAT": "37.4459610777",
+        "REFINE_WGS84_LOGT": "126.7972439212"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "안산시청소년상담복지센터",
+        "CENTER_TELNO": "031-364-1001",
+        "HMPG_ADDR": "http://www.aycc.org",
+        "REFINE_ZIPNO": "15387",
+        "REFINE_LOTNO_ADDR": "경기도 안산시 단원구 초지동 604-3번지",
+        "REFINE_ROADNM_ADDR": "경기도 안산시 단원구 원초로 76",
+        "REFINE_WGS84_LAT": "37.3261415644",
+        "REFINE_WGS84_LOGT": "126.8058862195"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "안성시청소년상담복지센터",
+        "CENTER_TELNO": "031-676-1318",
+        "HMPG_ADDR": "http://www.an1318.net",
+        "REFINE_ZIPNO": "17591",
+        "REFINE_LOTNO_ADDR": "경기도 안성시 낙원동 403-5번지",
+        "REFINE_ROADNM_ADDR": "경기도 안성시 낙원길 108",
+        "REFINE_WGS84_LAT": "37.0052217995",
+        "REFINE_WGS84_LOGT": "127.2750181680"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "안양시청소년상담복지센터",
+        "CENTER_TELNO": "031-446-1242",
+        "HMPG_ADDR": "http://1388.ayf.or.kr",
+        "REFINE_ZIPNO": "13997",
+        "REFINE_LOTNO_ADDR": "경기도 안양시 만안구 안양동 627-98번지",
+        "REFINE_ROADNM_ADDR": "경기도 안양시 만안구 안양로263번길 31",
+        "REFINE_WGS84_LAT": "37.3951694717",
+        "REFINE_WGS84_LOGT": "126.9220125595"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "양주시청소년상담복지센터",
+        "CENTER_TELNO": "031-8082-4230",
+        "HMPG_ADDR": "http://www.yj1318.net",
+        "REFINE_ZIPNO": "11492",
+        "REFINE_LOTNO_ADDR": "경기도 양주시 광사동 659번지",
+        "REFINE_ROADNM_ADDR": "경기도 양주시 고읍남로 205",
+        "REFINE_WGS84_LAT": "37.7928710980",
+        "REFINE_WGS84_LOGT": "127.0827295878"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "양평군청소년상담복지센터",
+        "CENTER_TELNO": "070-8894-1912",
+        "HMPG_ADDR": "http://www.yp1318.or.kr",
+        "REFINE_ZIPNO": "12556",
+        "REFINE_LOTNO_ADDR": "경기도 양평군 양평읍 양근리 414-1번지",
+        "REFINE_ROADNM_ADDR": "경기도 양평군 양평읍 양근로 183",
+        "REFINE_WGS84_LAT": "37.4900236555",
+        "REFINE_WGS84_LOGT": "127.4899761260"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "여주시청소년상담복지센터",
+        "CENTER_TELNO": "031-882-8889",
+        "HMPG_ADDR": "http://youth.yj21.net",
+        "REFINE_ZIPNO": "12636",
+        "REFINE_LOTNO_ADDR": "경기도 여주시 천송동 545-1번지",
+        "REFINE_ROADNM_ADDR": "경기도 여주시 신륵사길 6-8",
+        "REFINE_WGS84_LAT": "37.2997214211",
+        "REFINE_WGS84_LOGT": "127.6534702039"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "연천군청소년상담복지센터",
+        "CENTER_TELNO": "031-832-4452",
+        "HMPG_ADDR": "http://town.cyworld.com/yc1388",
+        "REFINE_ZIPNO": "11026",
+        "REFINE_LOTNO_ADDR": "경기도 연천군 전곡읍 은대리 541-6번지",
+        "REFINE_ROADNM_ADDR": "경기도 연천군 전곡읍 전영로 11",
+        "REFINE_WGS84_LAT": "38.0304468183",
+        "REFINE_WGS84_LOGT": "127.0670637198"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "오산시청소년상담복지센터",
+        "CENTER_TELNO": "031-372-4004",
+        "HMPG_ADDR": "http://www.osan1318.or.kr",
+        "REFINE_ZIPNO": "18136",
+        "REFINE_LOTNO_ADDR": "경기도 오산시 오산동 843-9번지",
+        "REFINE_ROADNM_ADDR": "경기도 오산시 오산로278번길 3",
+        "REFINE_WGS84_LAT": "37.1518381662",
+        "REFINE_WGS84_LOGT": "127.0688352649"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "용인시청소년상담복지센터",
+        "CENTER_TELNO": "031-328-9831",
+        "HMPG_ADDR": "http://www.yongin1318.or.kr",
+        "REFINE_ZIPNO": "17019",
+        "REFINE_LOTNO_ADDR": "경기도 용인시 처인구 삼가동 556번지",
+        "REFINE_ROADNM_ADDR": "경기도 용인시 처인구 중부대로 1199",
+        "REFINE_WGS84_LAT": "37.2407685922",
+        "REFINE_WGS84_LOGT": "127.1774648207"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "의왕시청소년상담복지센터",
+        "CENTER_TELNO": "031-458-5037",
+        "HMPG_ADDR": "http://www.uw1388.or.kr",
+        "REFINE_ZIPNO": "16077",
+        "REFINE_LOTNO_ADDR": "경기도 의왕시 고천동 100-1번지",
+        "REFINE_ROADNM_ADDR": "경기도 의왕시 문화공원로 33",
+        "REFINE_WGS84_LAT": "37.3418080343",
+        "REFINE_WGS84_LOGT": "126.9719271070"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "의정부청소년상담복지센터",
+        "CENTER_TELNO": "031-828-9560",
+        "HMPG_ADDR": "http://www.ui1388.com",
+        "REFINE_ZIPNO": "11622",
+        "REFINE_LOTNO_ADDR": "경기도 의정부시 의정부동 352번지",
+        "REFINE_ROADNM_ADDR": "경기도 의정부시 의정로 27",
+        "REFINE_WGS84_LAT": "37.7350438654",
+        "REFINE_WGS84_LOGT": "127.0340451345"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "이천시청소년상담복지센터",
+        "CENTER_TELNO": "031-634-2777",
+        "HMPG_ADDR": "http://www.ic1318.or.kr",
+        "REFINE_ZIPNO": "17371",
+        "REFINE_LOTNO_ADDR": "경기도 이천시 창전동 105-3번지",
+        "REFINE_ROADNM_ADDR": "경기도 이천시 영창로 260",
+        "REFINE_WGS84_LAT": "37.2804668492",
+        "REFINE_WGS84_LOGT": "127.4516605156"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "파주시청소년상담복지센터",
+        "CENTER_TELNO": "031-946-0022",
+        "HMPG_ADDR": "http://www.pajuyouth.or.kr",
+        "REFINE_ZIPNO": "10894",
+        "REFINE_LOTNO_ADDR": "경기도 파주시 와동동 1358번지",
+        "REFINE_ROADNM_ADDR": "경기도 파주시 와석순환로 415",
+        "REFINE_WGS84_LAT": "37.7237876146",
+        "REFINE_WGS84_LOGT": "126.7511868118"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "평택시청소년상담복지센터",
+        "CENTER_TELNO": "031-656-1388",
+        "HMPG_ADDR": "http://www.pt1318.or.kr",
+        "REFINE_ZIPNO": "17903",
+        "REFINE_LOTNO_ADDR": "경기도 평택시 합정동 392번지",
+        "REFINE_ROADNM_ADDR": "경기도 평택시 평남로 616",
+        "REFINE_WGS84_LAT": "36.9885198249",
+        "REFINE_WGS84_LOGT": "127.1082553599"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "포천시청소년상담복지센터",
+        "CENTER_TELNO": "031-533-1318",
+        "HMPG_ADDR": "http://counsel.pcs21.net",
+        "REFINE_ZIPNO": "11184",
+        "REFINE_LOTNO_ADDR": "경기도 포천시 소흘읍 이동교리 193-1번지",
+        "REFINE_ROADNM_ADDR": "경기도 포천시 소흘읍 호국로523번길 59-56",
+        "REFINE_WGS84_LAT": "37.8215079245",
+        "REFINE_WGS84_LOGT": "127.1288384852"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "하남시청소년상담복지센터",
+        "CENTER_TELNO": "031-790-6679",
+        "HMPG_ADDR": "http://www.ihanam.net",
+        "REFINE_ZIPNO": "12951",
+        "REFINE_LOTNO_ADDR": "경기도 하남시 신장동 520번지",
+        "REFINE_ROADNM_ADDR": "경기도 하남시 대청로 10",
+        "REFINE_WGS84_LAT": "37.5390409179",
+        "REFINE_WGS84_LOGT": "127.2146136809"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "화성시청소년상담복지센터",
+        "CENTER_TELNO": "031-267-8771",
+        "HMPG_ADDR": "http://www.mars1318.or.kr",
+        "REFINE_ZIPNO": "18372",
+        "REFINE_LOTNO_ADDR": "경기도 화성시 병점동 734번지",
+        "REFINE_ROADNM_ADDR": "경기도 화성시 태안로 145",
+        "REFINE_WGS84_LAT": "37.2030768878",
+        "REFINE_WGS84_LOGT": "127.0332844658"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "고양시남자단기청소년쉼터(둥지)",
+        "CENTER_TELNO": "031-969-0091",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "10317",
+        "REFINE_LOTNO_ADDR": "경기도 고양시 일산동구 식사동 312-2번지",
+        "REFINE_ROADNM_ADDR": "경기도 고양시 일산동구 견달산로161번길 77",
+        "REFINE_WGS84_LAT": "37.6834602",
+        "REFINE_WGS84_LOGT": "126.8193425"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "고양시여자중장기청소년쉼터(구 열린)",
+        "CENTER_TELNO": "031-918-1366",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "10244",
+        "REFINE_LOTNO_ADDR": "경기도 고양시 일산서구 탄현동 1498-7번지",
+        "REFINE_ROADNM_ADDR": "경기도 고양시 일산서구 현중로26번길 37-9",
+        "REFINE_WGS84_LAT": "37.6937880",
+        "REFINE_WGS84_LOGT": "126.7698714"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "구리시여자청소년쉼터(보금자리)",
+        "CENTER_TELNO": "031-918-1366",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "11934",
+        "REFINE_LOTNO_ADDR": "경기도 구리시 교문동 736번지",
+        "REFINE_ROADNM_ADDR": "경기도 구리시 안골로 32-1",
+        "REFINE_WGS84_LAT": "37.5970365",
+        "REFINE_WGS84_LOGT": "127.134404"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "군포하나로남자중장기청소년쉼터",
+        "CENTER_TELNO": "031-399-7997",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "15805",
+        "REFINE_LOTNO_ADDR": "경기도 군포시 산본동 75-61번지",
+        "REFINE_ROADNM_ADDR": "경기도 군포시 군포로 789",
+        "REFINE_WGS84_LAT": "37.3754487",
+        "REFINE_WGS84_LOGT": "126.9409559"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "남양주시일시청소년쉼터",
+        "CENTER_TELNO": "031-591-1319",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "12239",
+        "REFINE_LOTNO_ADDR": "경기도 남양주시 금곡동 651-1번지",
+        "REFINE_ROADNM_ADDR": "경기도 남양주시 홍유릉로248번길 39",
+        "REFINE_WGS84_LAT": "37.6272768",
+        "REFINE_WGS84_LOGT": "127.2025048"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "부천시일시청소년쉼터",
+        "CENTER_TELNO": "032-654-1318",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "14641",
+        "REFINE_LOTNO_ADDR": "경기도 부천시 심곡동 158-12번지",
+        "REFINE_ROADNM_ADDR": "경기도 부천시 부천로54번길 9",
+        "REFINE_WGS84_LAT": "37.4889604",
+        "REFINE_WGS84_LOGT": "126.7843264"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "부천시여자단기청소년쉼터 모퉁이",
+        "CENTER_TELNO": "032-343-1880",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "14669",
+        "REFINE_LOTNO_ADDR": "경기도 부천시 역곡동 114-11번지",
+        "REFINE_ROADNM_ADDR": "경기도 부천시 부일로763번길 16-23",
+        "REFINE_WGS84_LAT": "37.4878419",
+        "REFINE_WGS84_LOGT": "126.8149941"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "성남시여자중장기청소년쉼터",
+        "CENTER_TELNO": "031-758-1720",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "13360",
+        "REFINE_LOTNO_ADDR": "경기도 성남시 중원구 성남동 2582번지",
+        "REFINE_ROADNM_ADDR": "경기도 성남시 중원구 원터로106번길 4",
+        "REFINE_WGS84_LAT": "37.4360831",
+        "REFINE_WGS84_LOGT": "127.1427318"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "성남시남자중장기청소년쉼터",
+        "CENTER_TELNO": "031-752-9050",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "13291",
+        "REFINE_LOTNO_ADDR": "경기도 성남시 수정구 태평동 3337-2번지",
+        "REFINE_ROADNM_ADDR": "경기도 성남시 수정구 수정로171번길 21-13",
+        "REFINE_WGS84_LAT": "37.4443878",
+        "REFINE_WGS84_LOGT": "127.1371309"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "성남시일시청소년쉼터",
+        "CENTER_TELNO": "031-758-1388",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "13291",
+        "REFINE_LOTNO_ADDR": "경기도 성남시 수정구 태평동 3481번지",
+        "REFINE_ROADNM_ADDR": "경기도 성남시 수정구 탄리로 80",
+        "REFINE_WGS84_LAT": "37.4430558",
+        "REFINE_WGS84_LOGT": "127.1358177"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "성남시남자단기청소년쉼터",
+        "CENTER_TELNO": "031-722-6260",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "13647",
+        "REFINE_LOTNO_ADDR": "경기도 성남시 수정구 창곡동 559-3번지",
+        "REFINE_ROADNM_ADDR": "경기도 성남시 수정구 위례서일로 12",
+        "REFINE_WGS84_LAT": "37.4653538",
+        "REFINE_WGS84_LOGT": "127.1374058"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "성남시여자단기청소년쉼터",
+        "CENTER_TELNO": "031-758-1213",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "13385",
+        "REFINE_LOTNO_ADDR": "경기도 성남시 중원구 하대원동 103-17번지 럭키참조은아파트",
+        "REFINE_ROADNM_ADDR": "경기도 성남시 중원구 마지로 29",
+        "REFINE_WGS84_LAT": "37.4282467",
+        "REFINE_WGS84_LOGT": "127.1327976"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "수원시남자단기청소년쉼터",
+        "CENTER_TELNO": "031-232-4866",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "16474",
+        "REFINE_LOTNO_ADDR": "경기도 수원시 팔달구 인계동 969-9번지",
+        "REFINE_ROADNM_ADDR": "경기도 수원시 팔달구 장다리로233번길 12-17",
+        "REFINE_WGS84_LAT": "37.2714850",
+        "REFINE_WGS84_LOGT": "127.0258594"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "수원시여자단기청소년쉼터",
+        "CENTER_TELNO": "031-232-7982",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "16261",
+        "REFINE_LOTNO_ADDR": "경기도 수원시 팔달구 팔달로3가 79번지",
+        "REFINE_ROADNM_ADDR": "경기도 수원시 팔달구 행궁로 77",
+        "REFINE_WGS84_LAT": "37.2755141",
+        "REFINE_WGS84_LOGT": "127.0158145"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "시흥시여자단기청소년쉼터",
+        "CENTER_TELNO": "031-434-1318",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "15049",
+        "REFINE_LOTNO_ADDR": "경기도 시흥시 정왕동 2313-8번지",
+        "REFINE_ROADNM_ADDR": "경기도 시흥시 오동마을로 33",
+        "REFINE_WGS84_LAT": "37.3521905",
+        "REFINE_WGS84_LOGT": "126.7452205"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "시흥시남자단기청소년쉼터",
+        "CENTER_TELNO": "031-402-4145",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "14951",
+        "REFINE_LOTNO_ADDR": "경기도 시흥시 신천동 883-10번지",
+        "REFINE_ROADNM_ADDR": "경기도 시흥시 시흥대로1073번길 4-2",
+        "REFINE_WGS84_LAT": "37.4320233",
+        "REFINE_WGS84_LOGT": "126.7925479"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "안산시 남자단기청소년쉼터(징검다리)",
+        "CENTER_TELNO": "031-481-8232",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "15455",
+        "REFINE_LOTNO_ADDR": "경기도 안산시 단원구 초지동 743-6번지",
+        "REFINE_ROADNM_ADDR": "경기도 안산시 단원구 원포공원1로 35",
+        "REFINE_WGS84_LAT": "37.3017887",
+        "REFINE_WGS84_LOGT": "126.8124916"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "안산시여자단기청소년쉼터 한신",
+        "CENTER_TELNO": "031-485-0079",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "15256",
+        "REFINE_LOTNO_ADDR": "경기도 안산시 상록구 월피동 500-2번지",
+        "REFINE_ROADNM_ADDR": "경기도 안산시 상록구 예술대학로8길 17",
+        "REFINE_WGS84_LAT": "37.3367562",
+        "REFINE_WGS84_LOGT": "126.8420697"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "안양시남자단기청소년쉼터 FOR YOU",
+        "CENTER_TELNO": "031-455-9182",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "14082",
+        "REFINE_LOTNO_ADDR": "경기도 안양시 동안구 호계동 932-1번지",
+        "REFINE_ROADNM_ADDR": "경기도 안양시 동안구 경수대로665번길 31",
+        "REFINE_WGS84_LAT": "37.3806979",
+        "REFINE_WGS84_LOGT": "126.9521182"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "안양시 일시청소년쉼터 민들레 뜨락",
+        "CENTER_TELNO": "031-464-1388",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "13997",
+        "REFINE_LOTNO_ADDR": "경기도 안양시 만안구 안양동 627-98번지",
+        "REFINE_ROADNM_ADDR": "경기도 안양시 만안구 안양로263번길 31",
+        "REFINE_WGS84_LAT": "37.3951694",
+        "REFINE_WGS84_LOGT": "126.9220125"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "안양시 여자중장기청소년쉼터 호숙",
+        "CENTER_TELNO": "031-468-5141",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "14109",
+        "REFINE_LOTNO_ADDR": "경기도 안양시 동안구 호계동 976-3번지",
+        "REFINE_ROADNM_ADDR": "경기도 안양시 동안구 경수대로 606",
+        "REFINE_WGS84_LAT": "37.3766991",
+        "REFINE_WGS84_LOGT": "126.9562531"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "오산시립여자단기청소년쉼터",
+        "CENTER_TELNO": "031-374-1388",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "18115",
+        "REFINE_LOTNO_ADDR": "경기도 오산시 궐동 39-5번지",
+        "REFINE_ROADNM_ADDR": "경기도 오산시 오산로 366",
+        "REFINE_WGS84_LAT": "37.1593901",
+        "REFINE_WGS84_LOGT": "127.0666127"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "용인시중장기청소년쉼터(여자,푸른꿈)",
+        "CENTER_TELNO": "031-264-7733",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "16832",
+        "REFINE_LOTNO_ADDR": "경기도 용인시 수지구 풍덕천동 738-9번지",
+        "REFINE_ROADNM_ADDR": "경기도 용인시 수지구 풍덕천로189번길 4-11",
+        "REFINE_WGS84_LAT": "37.3272016",
+        "REFINE_WGS84_LOGT": "127.1013248"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "용인시남자단기청소년쉼터(남자,푸른꿈)",
+        "CENTER_TELNO": "031-276-0770",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "16829",
+        "REFINE_LOTNO_ADDR": "경기도 용인시 수지구 풍덕천동 667-3번지",
+        "REFINE_ROADNM_ADDR": "경기도 용인시 수지구 문인로39번길 7",
+        "REFINE_WGS84_LAT": "37.3322858",
+        "REFINE_WGS84_LOGT": "127.0984090"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "의정부시여자단기청소년쉼터",
+        "CENTER_TELNO": "031-837-1318",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "11617",
+        "REFINE_LOTNO_ADDR": "경기도 의정부시 가능동 374-4번지",
+        "REFINE_ROADNM_ADDR": "경기도 의정부시 비우로 12",
+        "REFINE_WGS84_LAT": "37.7549290",
+        "REFINE_WGS84_LOGT": "127.0296846"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "의정부시남자단기청소년쉼터",
+        "CENTER_TELNO": "031-829-1318",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "11654",
+        "REFINE_LOTNO_ADDR": "경기도 의정부시 의정부동 598번지",
+        "REFINE_ROADNM_ADDR": "경기도 의정부시 경의로 56",
+        "REFINE_WGS84_LAT": "37.7325999",
+        "REFINE_WGS84_LOGT": "127.0417354"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "의정부시일시청소년쉼터(이동)포텐",
+        "CENTER_TELNO": "031-871-1318",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "11617",
+        "REFINE_LOTNO_ADDR": "경기도 의정부시 가능동 374-4번지",
+        "REFINE_ROADNM_ADDR": "경기도 의정부시 비우로 12",
+        "REFINE_WGS84_LAT": "37.7549290",
+        "REFINE_WGS84_LOGT": "127.0296846"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "이천시여자단기청소년쉼터(나르샤)",
+        "CENTER_TELNO": "031-631-1388",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "17363",
+        "REFINE_LOTNO_ADDR": "경기도 이천시 창전동 456번지 대호2차아파트",
+        "REFINE_ROADNM_ADDR": "경기도 이천시 영창로227번길 28",
+        "REFINE_WGS84_LAT": "37.2820474",
+        "REFINE_WGS84_LOGT": "127.4482645"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "평택시여자단기청소년쉼터",
+        "CENTER_TELNO": "031-652-1384",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "17887",
+        "REFINE_LOTNO_ADDR": "경기도 평택시 비전동 825-15번지",
+        "REFINE_ROADNM_ADDR": "경기도 평택시 매봉산4길 26",
+        "REFINE_WGS84_LAT": "36.9963600",
+        "REFINE_WGS84_LOGT": "127.1072776"
+    },
+    {
+        "CONSLTN_CENTER_OPERT_GRP_NM": "화성시여자단기청소년쉼터",
+        "CENTER_TELNO": "031-227-7935",
+        "HMPG_ADDR": "정보없음",
+        "REFINE_ZIPNO": "18312",
+        "REFINE_LOTNO_ADDR": "경기도 화성시 봉담읍 수영리 647-6번지",
+        "REFINE_ROADNM_ADDR": "경기도 화성시 봉담읍 삼천병마로 1311",
+        "REFINE_WGS84_LAT": "37.2220993",
+        "REFINE_WGS84_LOGT": "126.9510078"
+    }
+]

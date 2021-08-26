@@ -1,7 +1,10 @@
 import 'dart:async';
 
+
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:kteen_app/models/YouthWelfareCenter.dart';
+import 'package:kteen_app/map_article_page.dart';
 
 class MapPage extends StatefulWidget {
   @override
@@ -20,14 +23,16 @@ class _MapPageState extends State<MapPage> {
   Widget _buildAppBar() {
     return AppBar(
       title: Text(
-        'Map Page',
+        '청소년 센터 지도',
         style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
       ),
       centerTitle: true,
       actions: <Widget>[
         IconButton(
-          icon: Icon(Icons.account_circle),
-          onPressed: () {},
+          icon: Icon(Icons.search),
+          onPressed: () {
+
+          },
         ),
       ],
     );
@@ -46,18 +51,50 @@ class MapSample extends StatefulWidget {
 }
 
 class MapSampleState extends State<MapSample> {
+  List<Marker> _markers = [];
   Completer<GoogleMapController> _controller = Completer();
+  YouthWelfareCenterDTO _youthWelfareCenterDTO = YouthWelfareCenterDTO();
 
-  static final CameraPosition _kGooglePlex = CameraPosition(
-    target: LatLng(37.42796133580664, -122.085749655962),
+  static final CameraPosition _defaultCameraPosition = CameraPosition(
+    target: LatLng(37.28361081597115, 127.04646759138873),
     zoom: 14.4746,
   );
 
   @override
+  void initState() {
+    super.initState();
+    _youthWelfareCenterDTO.readJson().then((value) {
+      for (int i = 0; i < value.length; i++) {
+        _markers.add(Marker(
+          markerId: MarkerId('$i'),
+          draggable: true,
+          onTap: () {},
+          position: LatLng(
+            double.parse(value[i].REFINEWGS84LAT),
+            double.parse(value[i].REFINEWGS84LOGT),
+          ),
+          infoWindow: InfoWindow(
+            title: '${value[i].CONSLTNCENTEROPERTGRPNM}',
+            snippet: '${value[i].REFINEROADNMADDR}',
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => MapArticlePage(data: value[i]),),
+              );
+            },
+          ),
+        ));
+      }
+      setState(() {});
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
     return GoogleMap(
-      mapType: MapType.hybrid,
-      initialCameraPosition: _kGooglePlex,
+      mapType: MapType.normal,
+      markers: Set.from(_markers),
+      initialCameraPosition: _defaultCameraPosition,
       onMapCreated: (GoogleMapController controller) {
         _controller.complete(controller);
       },

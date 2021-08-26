@@ -30,6 +30,8 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   google_maps_flutter: ^2.0.6
+  custom_info_window: ^1.0.1
+  clippy_flutter: ^1.1.1
 
   flutter_linkify: ^5.0.2
   url_launcher: ^6.0.9
@@ -45,6 +47,7 @@ dev_dependencies:
 flutter:
   assets:
     - assets/YouthWelfareServiceList.json
+    - assets/YouthWelfareCenterList.json
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
