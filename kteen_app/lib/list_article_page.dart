@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:kteen_app/list_page.dart';
+import 'package:kteen_app/models/YouthWelfareService.dart';
 import 'package:flutter_linkify/flutter_linkify.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class ArticlePage extends StatelessWidget {
-  const ArticlePage({
+class ListArticlePage extends StatelessWidget {
+  const ListArticlePage({
     Key key,
     @required YouthWelfareService data,
   }): _data = data, super(key: key);
@@ -22,7 +22,7 @@ class ArticlePage extends StatelessWidget {
   Widget _buildAppBar() {
     return AppBar(
       title: Text(
-        'Article Page',
+        '청소년 복지 정보',
         style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
       ),
       centerTitle: true,

@@ -1,8 +1,6 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:kteen_app/article_page.dart';
+import 'package:kteen_app/list_article_page.dart';
+import 'package:kteen_app/models/YouthWelfareService.dart';
 
 class ListPage extends StatefulWidget {
   @override
@@ -10,22 +8,12 @@ class ListPage extends StatefulWidget {
 }
 
 class _ListPageState extends State<ListPage> {
-  Future<List<YouthWelfareService>> _youthWelfareService;
-
-  // Fetch content from the json file
-  Future<List<YouthWelfareService>> readJson() async {
-    final String response = await rootBundle.loadString('assets/YouthWelfareServiceList.json');
-
-    List list = await json.decode(response);
-    var youthWelfareService = list.map((element) => YouthWelfareService.fromJson(element)).toList();
-
-    return youthWelfareService;
-  }
+  Future<List<YouthWelfareService>> _youthWelfareServiceFuture;
 
   @override
   void initState() {
-    _youthWelfareService = readJson();
     super.initState();
+    _youthWelfareServiceFuture = readYouthWelfareService();
   }
 
   @override
@@ -39,14 +27,16 @@ class _ListPageState extends State<ListPage> {
   Widget _buildAppBar() {
     return AppBar(
       title: Text(
-        'List Page',
+        '청소년 복지 목록',
         style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
       ),
       centerTitle: true,
       actions: <Widget>[
         IconButton(
           icon: Icon(Icons.search),
-          onPressed: () {},
+          onPressed: () {
+
+          },
         ),
       ],
     );
@@ -60,7 +50,7 @@ class _ListPageState extends State<ListPage> {
           child: Column(
             children: [
               FutureBuilder<List<YouthWelfareService>>(
-                future: _youthWelfareService,
+                future: _youthWelfareServiceFuture,
                 builder: (context, snapshot) {
                   if (snapshot.hasData) {
                     return ListView.builder(
@@ -76,7 +66,7 @@ class _ListPageState extends State<ListPage> {
                               onPressed: () {
                                 Navigator.push(
                                   context,
-                                  MaterialPageRoute(builder: (context) => ArticlePage(data: snapshot.data[index]),),
+                                  MaterialPageRoute(builder: (context) => ListArticlePage(data: snapshot.data[index]),),
                                 );
                               },
                             ),
@@ -100,47 +90,5 @@ class _ListPageState extends State<ListPage> {
         ),
       ),
     );
-  }
-}
-
-class YouthWelfareService {
-  String TITLE;
-  String MAINPURPS;
-  String RELATEINFO;
-  String GUIDCONT;
-  String OPERTMAINBDNM;
-  String OPERTORGNZTNM;
-  String OPERTBEGINDE;
-
-  YouthWelfareService({
-    this.TITLE,
-    this.MAINPURPS,
-    this.RELATEINFO,
-    this.GUIDCONT,
-    this.OPERTMAINBDNM,
-    this.OPERTORGNZTNM,
-    this.OPERTBEGINDE
-  });
-
-  YouthWelfareService.fromJson(Map<String, dynamic> json) {
-    TITLE = json['TITLE'];
-    MAINPURPS = json['MAIN_PURPS'];
-    RELATEINFO = json['RELATE_INFO'];
-    GUIDCONT = json['GUID_CONT'];
-    OPERTMAINBDNM = json['OPERT_MAINBD_NM'];
-    OPERTORGNZTNM = json['OPERT_ORGNZT_NM'];
-    OPERTBEGINDE = json['OPERT_BEGIN_DE'];
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['TITLE'] = this.TITLE;
-    data['MAIN_PURPS'] = this.MAINPURPS;
-    data['RELATE_INFO'] = this.RELATEINFO;
-    data['GUID_CONT'] = this.GUIDCONT;
-    data['OPERT_MAINBD_NM'] = this.OPERTMAINBDNM;
-    data['OPERT_ORGNZT_NM'] = this.OPERTORGNZTNM;
-    data['OPERT_BEGIN_DE'] = this.OPERTBEGINDE;
-    return data;
   }
 }
