@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:kteen_app/tab_page.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 void main() async {
   runApp(MyApp());

@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:kteen_app/article_page.dart';
 
 class ListPage extends StatefulWidget {
   @override
@@ -44,7 +45,7 @@ class _ListPageState extends State<ListPage> {
       centerTitle: true,
       actions: <Widget>[
         IconButton(
-          icon: Icon(Icons.account_circle),
+          icon: Icon(Icons.search),
           onPressed: () {},
         ),
       ],
@@ -70,6 +71,15 @@ class _ListPageState extends State<ListPage> {
                         return Card(
                           child: ListTile(
                             title: Text(snapshot.data[index].TITLE),
+                            trailing: IconButton(
+                              icon: Icon(Icons.arrow_forward_ios),
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => ArticlePage(data: snapshot.data[index]),),
+                                );
+                              },
+                            ),
                           ),
                         );
                       }
