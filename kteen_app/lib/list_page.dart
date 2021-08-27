@@ -59,6 +59,7 @@ class _ListPageState extends State<ListPage> {
                       itemCount: snapshot.data.length,
                       itemBuilder: (context, index) {
                         return Card(
+                          elevation: 2.0,
                           child: ListTile(
                             title: Text(snapshot.data[index].TITLE),
                             trailing: IconButton(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kteen_app/models/YouthWelfareCenter.dart';
+import 'package:kteen_app/utils/user_information.dart';
 import 'package:flutter_linkify/flutter_linkify.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -14,12 +15,12 @@ class MapArticlePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: _buildAppBar(),
+      appBar: _buildAppBar(context),
       body: _buildBody(),
     );
   }
 
-  Widget _buildAppBar() {
+  Widget _buildAppBar(BuildContext context) {
     return AppBar(
       title: Text(
         '청소년 센터 정보',
@@ -29,7 +30,15 @@ class MapArticlePage extends StatelessWidget {
       actions: <Widget>[
         IconButton(
           icon: Icon(Icons.add),
-          onPressed: () {},
+          onPressed: () {
+            userYouthWelfareCenterList.add(_data);
+
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text('센터 정보가 북마크 되었습니다.'),
+              ),
+            );
+          },
         ),
       ],
     );
@@ -41,6 +50,7 @@ class MapArticlePage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Card(
+            elevation: 2.0,
             child: Container(
               width: double.infinity,
               child: Padding(

@@ -29,23 +29,24 @@ class _TabPageState extends State<TabPage> {
     return Scaffold(
       body: Center(child: _pages[_selectedndex]),
       bottomNavigationBar: BottomNavigationBar(
-          fixedColor: Colors.black,
-          onTap: onItemTapped,
-          currentIndex: _selectedndex,
-          items: <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-                icon: Icon(Icons.list_alt),
-                title: Text('List')
-            ),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.map),
-                title: Text('Map')
-            ),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.account_circle),
-                title: Text('Account')
-            ),
-          ]),
+        fixedColor: Colors.black,
+        onTap: onItemTapped,
+        currentIndex: _selectedndex,
+        items: <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.list_alt),
+            label: '복지 목록',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.map),
+            label: '센터 지도',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.account_circle),
+            label: '나의 정보',
+          ),
+        ],
+      ),
     );
   }
 
