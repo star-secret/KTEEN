@@ -43,7 +43,7 @@ class _AccountPageState extends State<AccountPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Card(
-                elevation: 4.0,
+                elevation: 2.0,
                 child: Container(
                   width: double.infinity,
                   child: Column(
@@ -89,7 +89,7 @@ class _AccountPageState extends State<AccountPage> {
                 itemCount: userYouthWelfareServiceList.length,
                 itemBuilder: (context, index) {
                   return Card(
-                    elevation: 4.0,
+                    elevation: 2.0,
                     child: ListTile(
                       title: Text(userYouthWelfareServiceList[index].TITLE),
                       trailing: IconButton(
@@ -119,7 +119,7 @@ class _AccountPageState extends State<AccountPage> {
                   itemCount: userYouthWelfareCenterList.length,
                   itemBuilder: (context, index) {
                     return Card(
-                      elevation: 4.0,
+                      elevation: 2.0,
                       child: ListTile(
                         title: Text(userYouthWelfareCenterList[index].CONSLTNCENTEROPERTGRPNM),
                         trailing: IconButton(
@@ -142,3 +142,4 @@ class _AccountPageState extends State<AccountPage> {
     );
   }
 }
+
