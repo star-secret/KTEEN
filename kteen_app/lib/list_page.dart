@@ -161,7 +161,10 @@ class Search extends SearchDelegate {
             selectedResult = suggestionList[index];
             selectedResultIndex = searchList.indexOf(selectedResult);
 
-            showResults(context);
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => ListArticlePage(data: dataList[selectedResultIndex]),),
+            );
           },
         );
       },
