@@ -63,10 +63,19 @@ class MapSampleState extends State<MapSample> {
   @override
   void initState() {
     super.initState();
+
+    _markers.add(Marker(
+      markerId: MarkerId('location_my'),
+      draggable: true,
+      onTap: () {},
+      icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueAzure),
+      position: LatLng(37.28361081597115, 127.04646759138873),
+    ));
+    
     _youthWelfareCenterDTO.readJson().then((value) {
       for (int i = 0; i < value.length; i++) {
         _markers.add(Marker(
-          markerId: MarkerId('$i'),
+          markerId: MarkerId('location_$i'),
           draggable: true,
           onTap: () {},
           position: LatLng(
