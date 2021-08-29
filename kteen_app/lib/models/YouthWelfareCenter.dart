@@ -2,17 +2,13 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
-class YouthWelfareCenterDTO {
-  List<YouthWelfareCenter> youthWelfareCounselingCenterList;
+Future<List<YouthWelfareCenter>> readYouthWelfareCounselingCenter() async {
+  final String response = await rootBundle.loadString('assets/YouthWelfareCenterList.json');
 
-  Future<List<YouthWelfareCenter>> readJson() async {
-    final String response = await rootBundle.loadString('assets/YouthWelfareCenterList.json');
+  List list = await json.decode(response);
+  var youthWelfareCounselingCenterList = list.map((element) => YouthWelfareCenter.fromJson(element)).toList();
 
-    List list = await json.decode(response);
-    youthWelfareCounselingCenterList = list.map((element) => YouthWelfareCenter.fromJson(element)).toList();
-
-    return youthWelfareCounselingCenterList;
-  }
+  return youthWelfareCounselingCenterList;
 }
 
 class YouthWelfareCenter {

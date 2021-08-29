@@ -12,6 +12,62 @@ class MapPage extends StatefulWidget {
 }
 
 class _MapPageState extends State<MapPage> {
+  List<Marker> _markers = [];
+  Completer<GoogleMapController> _controller = Completer();
+
+  Future<List<YouthWelfareCenter>> _youthWelfareCenterFuture;
+  List<YouthWelfareCenter> _youthWelfareCenterList = [];
+  List<String> _youthWelfareCenterTitleList = [];
+
+  static final CameraPosition _defaultCameraPosition = CameraPosition(
+    target: LatLng(37.28361081597115, 127.04646759138873),
+    zoom: 14.4746,
+  );
+
+  @override
+  void initState() {
+    super.initState();
+
+    _markers.add(Marker(
+      markerId: MarkerId('location_my'),
+      draggable: true,
+      onTap: () {},
+      icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueAzure),
+      position: LatLng(37.28361081597115, 127.04646759138873),
+    ));
+
+    _youthWelfareCenterFuture = readYouthWelfareCounselingCenter().then((value) {
+      value.forEach((element) {
+        _youthWelfareCenterList.add(element);
+        _youthWelfareCenterTitleList.add(element.CONSLTNCENTEROPERTGRPNM);
+
+        _markers.add(Marker(
+          markerId: MarkerId('${element.CONSLTNCENTEROPERTGRPNM}'),
+          draggable: true,
+          onTap: () {},
+          position: LatLng(
+            double.parse(element.REFINEWGS84LAT),
+            double.parse(element.REFINEWGS84LOGT),
+          ),
+          infoWindow: InfoWindow(
+            title: '${element.CONSLTNCENTEROPERTGRPNM}',
+            snippet: '${element.REFINEROADNMADDR}',
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => MapArticlePage(data: element),),
+              );
+            },
+          ),
+        ));
+      });
+
+      setState(() {});
+
+      return value;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +87,7 @@ class _MapPageState extends State<MapPage> {
         IconButton(
           icon: Icon(Icons.search),
           onPressed: () {
-
+            showSearch(context: context, delegate:Search(_youthWelfareCenterList, _youthWelfareCenterTitleList));
           },
         ),
       ],
@@ -39,73 +95,81 @@ class _MapPageState extends State<MapPage> {
   }
 
   Widget _buildBody() {
-    return SafeArea(
-      child: MapSample(),
-    );
-  }
-}
-
-class MapSample extends StatefulWidget {
-  @override
-  State<MapSample> createState() => MapSampleState();
-}
-
-class MapSampleState extends State<MapSample> {
-  List<Marker> _markers = [];
-  Completer<GoogleMapController> _controller = Completer();
-  YouthWelfareCenterDTO _youthWelfareCenterDTO = YouthWelfareCenterDTO();
-
-  static final CameraPosition _defaultCameraPosition = CameraPosition(
-    target: LatLng(37.28361081597115, 127.04646759138873),
-    zoom: 14.4746,
-  );
-
-  @override
-  void initState() {
-    super.initState();
-
-    _markers.add(Marker(
-      markerId: MarkerId('location_my'),
-      draggable: true,
-      onTap: () {},
-      icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueAzure),
-      position: LatLng(37.28361081597115, 127.04646759138873),
-    ));
-    
-    _youthWelfareCenterDTO.readJson().then((value) {
-      for (int i = 0; i < value.length; i++) {
-        _markers.add(Marker(
-          markerId: MarkerId('location_$i'),
-          draggable: true,
-          onTap: () {},
-          position: LatLng(
-            double.parse(value[i].REFINEWGS84LAT),
-            double.parse(value[i].REFINEWGS84LOGT),
-          ),
-          infoWindow: InfoWindow(
-            title: '${value[i].CONSLTNCENTEROPERTGRPNM}',
-            snippet: '${value[i].REFINEROADNMADDR}',
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => MapArticlePage(data: value[i]),),
-              );
-            },
-          ),
-        ));
-      }
-      setState(() {});
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
     return GoogleMap(
       mapType: MapType.normal,
       markers: Set.from(_markers),
       initialCameraPosition: _defaultCameraPosition,
       onMapCreated: (GoogleMapController controller) {
         _controller.complete(controller);
+      },
+    );
+  }
+}
+
+class Search extends SearchDelegate {
+  @override
+  List<Widget> buildActions(BuildContext context) {
+    return <Widget>[
+      IconButton(
+        icon: Icon(Icons.close),
+        onPressed: () {
+          query = "";
+        },
+      ),
+    ];
+  }
+
+  @override
+  Widget buildLeading(BuildContext context) {
+    return IconButton(
+      icon: Icon(Icons.arrow_back),
+      onPressed: () {
+        Navigator.pop(context);
+      },
+    );
+  }
+
+  String selectedResult;
+  int selectedResultIndex;
+
+  @override
+  Widget buildResults(BuildContext context) {
+    return MapArticlePage(data: dataList[selectedResultIndex]);
+  }
+
+  final List<YouthWelfareCenter> dataList;
+  final List<String> searchList;
+
+  Search(this.dataList, this.searchList);
+
+  List<String> recentList = [];
+
+  @override
+  Widget buildSuggestions(BuildContext context) {
+    List<String> suggestionList = [];
+
+    query.isEmpty ? suggestionList = recentList : suggestionList.addAll(
+        searchList.where((element) => element.contains(query),)
+    );
+
+    return ListView.builder(
+      itemCount: suggestionList.length,
+      itemBuilder: (context, index) {
+        return ListTile(
+          title: Text(
+            suggestionList[index],
+          ),
+          leading: query.isEmpty ? Icon(Icons.access_time) : SizedBox(),
+          onTap: () {
+            selectedResult = suggestionList[index];
+            selectedResultIndex = searchList.indexOf(selectedResult);
+
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => MapArticlePage(data: dataList[selectedResultIndex]),),
+            );
+          },
+        );
       },
     );
   }
