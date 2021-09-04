@@ -108,7 +108,7 @@ class _AccountPageState extends State<AccountPage> {
               Padding(
                 padding: const EdgeInsets.only(left: 4.0, top: 16.0, right: 0.0, bottom: 2.0),
                 child: Text(
-                  '내가 관심있는 센터 정보',
+                  '내가 관심있는 시설 정보',
                   style: TextStyle(fontSize: 14.0),
                   textAlign: TextAlign.left,
                 ),

@@ -79,7 +79,7 @@ class _MapPageState extends State<MapPage> {
   Widget _buildAppBar() {
     return AppBar(
       title: Text(
-        '청소년 센터 지도',
+        '청소년 시설 지도',
         style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
       ),
       centerTitle: true,

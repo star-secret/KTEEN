@@ -23,7 +23,7 @@ class MapArticlePage extends StatelessWidget {
   Widget _buildAppBar(BuildContext context) {
     return AppBar(
       title: Text(
-        '청소년 센터 정보',
+        '청소년 시설 정보',
         style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
       ),
       centerTitle: true,
@@ -35,7 +35,7 @@ class MapArticlePage extends StatelessWidget {
 
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
-                content: Text('센터 정보가 북마크 되었습니다.'),
+                content: Text('시설 정보가 북마크 되었습니다.'),
               ),
             );
           },
